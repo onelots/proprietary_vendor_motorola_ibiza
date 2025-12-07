@@ -2758,7 +2758,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/ibiza/proprietary/recovery/root/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ICNL9911.bin \
-    vendor/motorola/ibiza/proprietary/recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6033.csv:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6033.csv \
+    vendor/motorola/ibiza/proprietary/recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6033:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_6033 \
     vendor/motorola/ibiza/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
     vendor/motorola/ibiza/proprietary/recovery/root/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp.bin \
     vendor/motorola/ibiza/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -3006,7 +3006,6 @@ PRODUCT_PACKAGES += \
     libvidhance_fbc \
     libvidhance_horizon_correction \
     libvidhance_stabilizer \
-    nfc_nci_nxp \
     sensors.moto \
     sensors.ssc \
     vendor.fpsensor.hardware.fpsensorhidlsvc@2.0 \
