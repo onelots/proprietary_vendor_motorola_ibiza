@@ -1051,7 +1051,7 @@ cc_prebuilt_library_shared {
                 "libcamximageformatutils",
                 "libchilog",
                 "libcom.qti.chinodeutils",
-                "libui",
+                "libui-v34",
                 "libz",
                 "libc",
                 "libm",
@@ -2432,7 +2432,7 @@ cc_prebuilt_library_shared {
                 "libcom.qti.chinodeutils",
                 "libcutils",
                 "libutils",
-                "libui",
+                "libui-v34",
                 "libvidhance",
                 "libsensorslog",
                 "libc++",
@@ -4802,62 +4802,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "vendor.fpsensor.hardware.fpsensorhidlsvc@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhdr_stub",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhdr_stub.so",
-            ],
-            shared_libs: [
-                "libcdsprpc",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhdr_tm",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhdr_tm.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libsdm-color",
-                "libtinyxml2_1",
-                "libcutils",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",

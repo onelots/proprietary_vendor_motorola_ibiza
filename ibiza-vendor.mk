@@ -2968,8 +2968,6 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libfp_ext_svc2 \
     libfptcmd \
-    libhdr_stub \
-    libhdr_tm \
     libipebpsstriping \
     libipebpsstriping170 \
     libjpege \
